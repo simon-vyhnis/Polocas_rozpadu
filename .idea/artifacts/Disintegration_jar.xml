@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Disintegration:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Disintegration_jar</output-path>
+    <root id="archive" name="Disintegration.jar">
+      <element id="module-output" name="Disintegration" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jdom-2.0.6/jdom-2.0.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

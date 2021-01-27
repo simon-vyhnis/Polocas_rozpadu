@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layouts.PixelLayout>
+    <views.MoleculesView
+        id="moleculesView"
+        x="0px"
+        y="0px"
+        width="1002px"
+        height="1002px"
+        />
+
+
+
+    <Text
+        id = "heading"
+        width="content"
+        height="content"
+        x="1020px"
+        y="30px"
+        text="Poločas rozpadu čočky by Šimon Vyhnis"
+        textSize="20"
+    />
+
+    <Text
+        id="pocetCelkem"
+        width="content"
+        height="content"
+        x="1020px"
+        y="60px"
+    />
+
+    <Text
+        id="pocetPremenenych"
+        width="content"
+        height="content"
+        x="1020px"
+        y="80px"
+    />
+
+    <Text
+        id="pocetPuvodnich"
+        width="content"
+        height="content"
+        x="1020px"
+        y="100px"
+    />
+
+    <Text
+            id="pocetOpakovani"
+            width="content"
+            height="content"
+            x="1020px"
+            y="120px"
+    />
+
+    <Text
+        id="graphTitle"
+        width="content"
+        height="content"
+        x="1020px"
+        y="160px"
+        textSize="16"
+        text="Graf počtu nepřeměněných"
+        />
+
+    <views.GraphView
+        id="graph"
+        width="700px"
+        height="800px"
+        x="1020px"
+        y="190px"
+    />
+
+
+    <Button
+        id="button"
+        width="content"
+        height="content"
+        y="1050px"
+        x="1020px"
+        text="START"
+        color="primaryColor"
+    />
+
+
+
+</layouts.PixelLayout>
